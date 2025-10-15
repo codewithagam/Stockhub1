@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><form>
+  <h1>Job Application</h1>  
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" required><br><br>
+    <label for="email">Email:</label><br>           
+    <input type="email" id="email" name="email"><br><br>
+    <label for="phone">Phone:</label><br>
+    <input type="tel" id="phone" name="phone"><br><br>
+    <label for="resume">resume:</label><br>
+    <input type="file" id="resume" name="resume"><br><br>
+    <label for="experience">experience(year)</label>
+    <input type="number" name="experience" id="experience" min="0" max="50">
+    <br><br>
+    <fieldset>
+        <legend>skills</legend>
+        <input type="checkbox" id="skill1" name="skill1" value="HTML">
+        <label for="skill1">HTML</label><br>
+        <input type="checkbox" id="skill2" name="skill2" value="CSS">
+        <label for="skill2">CSS</label><br>
+        <input type="checkbox" id="skill3" name="skill3" value="JS">
+        <label for="skill3">JS</label><br>
+    </fieldset>
+    <label for="school"> education</label>
+    <select name="school" id="school">
+        <option value="high school">high school</option>
+        <option value="bachelor's degree">bachelor's degree</option>
+        <option value="master's degree">master's degree</option>
+        <option value="phd">phd</option><br><br></select><br><br>
+        <fieldset>
+        <legend>avalablity</legend>
+        <input type="checkbox" id="avalablity1" name="avalablity" >
+        <label for="avalablity1">full time</label>
+        <input type="checkbox" id="avalablity2" name="avalablity">
+        <label for="avalablity2">part time</label><br><br>
+       </fieldset>
+       <label for="comments">comments:</label>
+       <textarea name="comments" id="comments" rows="10" cols="20">
+ comments                 
+  </textarea>
+  <input type="submit" value="apply">
+       </form>
+</body>
+</html>
