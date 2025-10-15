@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <h1>COMPLEX FORM</h1>
+    <fieldset>
+        <legend>personal details</legend>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required>
+        <label for="email">email:   </label>
+        <input type="email" id="email" name="email">
+        <label for="phone">phone:</label>
+        <input type="tel" id="phone" name="phone">
+        <label for="dob">dob:</label>
+        <input type="date" id="dob" name="dob"> 
+        <label for="gender">gender</label>
+        <input type="radio" id="gender" name="gender" value="male">MALE
+        <input type="radio" id="gender" name="gender" value="female">FEMALE
+        <label for="country">country</label>
+        <select name="country" id="country">
+            <option value="" select disabled>choose a value</option>
+            <option value="india">india</option>
+            <option value="usa">usa</option>
+            <option value="uk">uk</option>
+            <option value="canada">canada</option></select>
+    </fieldset>
+ <fieldset>
+    <legend>
+        <label for="street">street</label>
+        <input type="text" id="street" name="street">
+        <label for="city">street</label>
+        <input type="text" id="city" name="city">
+        <label for="state">street</label>
+        <input type="text" id="state" name="state">
+        <label for="zipcode">street</label>
+        <input type="number" id="zipcode" name="zipcode">
+    </legend>
+ </fieldset>
+<fieldset>
+    <legend>other info</legend>
+    <label for="comments">comments</label>
+    <textarea name="comments" id="comments" rows="10" cols="30">
+ comments
+    </textarea>
+    <label for="checkbox8">I agree to this condition</label>
+    <input type="checkbox" name="checkbox8" id="checkbox8">
+  
+</fieldset>
+<input type="submit" value="submit">
+</form>
+</body>
+</html>
