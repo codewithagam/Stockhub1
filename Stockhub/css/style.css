@@ -1,0 +1,15 @@
+#firstpara{
+    background-color: lightblue;
+}
+#secondpara{
+ background-color: rgb(170, 34, 57);
+}
+#thirdpara{
+    background-color: rgba(66,100,52, 100);
+}
+#fourpara{
+    background-color: #ffab239c;
+}
+#fifthpara{
+    background-color: hsl(0, 10%, 55%);
+}

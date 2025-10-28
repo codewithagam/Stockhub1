@@ -1,0 +1,26 @@
+h1{
+    background-color: pink;;
+    border: 10px dashed black;
+    border-left: 50px;
+    width:350px;
+    height: 200px;
+}
+#firstpara{
+    margin: 20px;
+    border: 50px solid blue;
+    padding-bottom: 105px;
+    width: 400px;
+    margin-bottom:50px;
+}
+span{
+        background-color: pink;;
+    border: 10px dashed black;
+    border-left: 50px;
+    width:350px;
+    height: 200px;
+}
+*{
+    margin:0;
+    padding: 0;
+
+}
