@@ -1,4 +1,8 @@
-.wrapper{
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}.wrapper{
     height:100vh;
     overflow-x:hidden;
     perspective: 10px;
@@ -12,6 +16,18 @@ align-items:center;
 transform-style: preserve-3d;
 z-index: -1;
 }
+.back{
+
+    transform: translateZ(-40px) scale(6);
+}
+.fore{
+    transform: translate(-20px) scale(2);
+}
 .back,.fore{
-    position:absolute
+    position:absolute;
+    height: 100%;
+    width:100%;
+    z-index:-1;
+
+
 }
