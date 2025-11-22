@@ -16,8 +16,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transform-style: preserve-3d;
-  
+
 }
 .back,.fore{
     position:absolute;
